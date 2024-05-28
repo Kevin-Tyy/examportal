@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <mapping class="org.examportal.entities.Exam"/>
+        <mapping class="org.examportal.entities.User"/>
+       <mapping class="org.examportal.entities.Question"/>
+        <mapping class="org.examportal.entities.Choice"/>
+        <mapping class="org.examportal.entities.Course"/>
+        <mapping class="org.examportal.entities.Result"/>
+    </session-factory>
+</hibernate-configuration>
